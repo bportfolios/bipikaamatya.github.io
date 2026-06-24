@@ -62,25 +62,25 @@ export default function CodeExplorer() {
   }, [activeFile.content, searchQuery]);
 
   return (
-    <section className="bg-[#0A0A0B] py-16 border-b border-white/5" id="portfolio-explorer">
+    <section className="bg-[#FBFBFA] py-16 border-b border-zinc-200/80" id="portfolio-explorer">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="mb-10 text-center md:text-left">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-400 border border-indigo-500/20 mb-3">
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 border border-indigo-100 mb-3">
             <Terminal size={12} />
             Interactive Code Showcase
           </div>
-          <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-zinc-900 sm:text-4xl">
             Asynchronous FastAPI Backend Codebase
           </h2>
-          <p className="mt-3 text-zinc-400 max-w-2xl text-sm leading-relaxed">
+          <p className="mt-3 text-zinc-500 max-w-2xl text-sm leading-relaxed">
             Examine my backend architecture patterns! Use the explorer tree to navigate schemas, databases, dockerization, and migrations. Search inside code or copy sections for your projects.
           </p>
         </div>
 
         {/* The IDE container */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 rounded-2xl border border-white/5 bg-zinc-950/45 overflow-hidden shadow-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12 rounded-2xl border border-zinc-200 bg-zinc-950 overflow-hidden shadow-xl">
           
           {/* 1. Folder File Tree Sidebar (lg:col-span-3) */}
           <div className="lg:col-span-3 border-r border-white/5 bg-[#0D0D0E]/80 p-4">
@@ -267,32 +267,32 @@ export default function CodeExplorer() {
         {/* Integration Explanation Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
           
-          <div className="rounded-xl border border-white/5 bg-zinc-900/10 p-5 backdrop-blur-sm hover:border-white/10 transition-all">
+          <div className="rounded-xl border border-zinc-200/80 bg-white p-5 shadow-sm hover:shadow-md transition-all">
             <div className="flex items-center gap-2 mb-3">
-              <Server size={16} className="text-indigo-400" />
-              <h4 className="text-sm font-bold text-white">FastAPI & Pydantic</h4>
+              <Server size={16} className="text-indigo-600" />
+              <h4 className="text-sm font-bold text-zinc-900">FastAPI & Pydantic</h4>
             </div>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-xs text-zinc-500 leading-relaxed">
               Provides near-instant request-response loops with standard Swagger UI. Schema validations guarantee absolute model safety.
             </p>
           </div>
 
-          <div className="rounded-xl border border-white/5 bg-zinc-900/10 p-5 backdrop-blur-sm hover:border-white/10 transition-all">
+          <div className="rounded-xl border border-zinc-200/80 bg-white p-5 shadow-sm hover:shadow-md transition-all">
             <div className="flex items-center gap-2 mb-3">
-              <Database size={16} className="text-cyan-400" />
-              <h4 className="text-sm font-bold text-white">SQLAlchemy & Alembic</h4>
+              <Database size={16} className="text-cyan-600" />
+              <h4 className="text-sm font-bold text-zinc-900">SQLAlchemy & Alembic</h4>
             </div>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-xs text-zinc-500 leading-relaxed">
               Full async session handling prevents blocking Node-like threads. Auto-generates versions for schema change auditing.
             </p>
           </div>
 
-          <div className="rounded-xl border border-white/5 bg-zinc-900/10 p-5 backdrop-blur-sm hover:border-white/10 transition-all">
+          <div className="rounded-xl border border-zinc-200/80 bg-white p-5 shadow-sm hover:shadow-md transition-all">
             <div className="flex items-center gap-2 mb-3">
-              <Cpu size={16} className="text-indigo-400" />
-              <h4 className="text-sm font-bold text-white">Docker & Poetry</h4>
+              <Cpu size={16} className="text-indigo-600" />
+              <h4 className="text-sm font-bold text-zinc-900">Docker & Poetry</h4>
             </div>
-            <p className="text-xs text-zinc-400 leading-relaxed">
+            <p className="text-xs text-zinc-500 leading-relaxed">
               Containerizes dependencies cleanly under single isolation. Compose binds services so local and production stay uniform.
             </p>
           </div>
