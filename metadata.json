@@ -1,0 +1,6 @@
+{
+  "name": "Bipika Amatya - Portfolio",
+  "description": "Interactive developer portfolio for Bipika Amatya, featuring work history, technical skills, and an interactive FastAPI backend project code explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
