@@ -64,7 +64,7 @@ function PortfolioContent() {
             <span className="font-semibold text-zinc-400">
               Bipika Amatya &copy; {new Date().getFullYear()}
             </span>
-            <span>Software Developer | Tampere, Finland</span>
+            <span>Software Developer | Vantaa, Finland</span>
           </div>
 
           <div className="flex items-center gap-1.5 font-mono text-[10px] text-zinc-600">

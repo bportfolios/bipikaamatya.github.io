@@ -42,7 +42,7 @@ const initialState: PortfolioState = {
   email: "bipika.amatya@gmail.com",
   linkedin: "https://www.linkedin.com/in/bipika-amatya",
   github: "https://www.github.com/bportfolios",
-  location: "Tampere, Finland",
+  location: "Vantaa, Finland",
   summary: "Experienced Software Developer with nearly a decade of expertise specializing in Application and Backend Development. Dedicated team player with a focus on user satisfaction. Passionate about taking on complex web technology challenges and leveraging years of production experience to deliver high-quality, high-performance web systems and APIs.",
   skills: [
     {
@@ -76,7 +76,7 @@ const initialState: PortfolioState = {
       id: "bithouse",
       role: "Software Developer",
       company: "Bithouse Oy",
-      location: "Tampere, Finland",
+      location: "Vantaa, Finland",
       period: "October 2020 – Present",
       responsibilities: [
         "Design, develop, and deploy cloud-scale web applications and APIs utilizing Python and FastAPI.",
@@ -92,7 +92,7 @@ const initialState: PortfolioState = {
       id: "teleste",
       role: "Software Developer",
       company: "Teleste Information Solutions",
-      location: "Tampere, Finland",
+      location: "Vantaa, Finland",
       period: "Nov 2019 – Nov 2020",
       responsibilities: [
         "Conducted in-depth analysis and technical research on passenger announcement systems to optimize public transport integration.",
